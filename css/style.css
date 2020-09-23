@@ -1,0 +1,47 @@
+/* regole generali */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* regole pagina */
+
+/* intestazione */
+header {
+  width: 100%;
+  /* debug */
+  height: 100px;
+  background-color: green;
+  border: 1px solid black;
+  /* fine debug */
+}
+
+/* parte centrale */
+main {
+  width: 100%;
+  /* debug */
+  /* height: 100px; */
+  background-color: yellow;
+  border: 1px solid black;
+  /* fine debug */
+}
+
+section {
+  width: 100%;
+  /* debug */
+  height: 100pX;
+  border: 1px solid black;
+  /* fine debug */
+}
+
+/* piè di pagina */
+footer {
+  width: 100%;
+  /* debug */
+  height: 100px;
+  background-color: red;
+  border: 1px solid black;
+  /* fine debug */
+}

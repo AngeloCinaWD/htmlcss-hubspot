@@ -18,6 +18,16 @@ header {
   /* fine debug */
 }
 
+.container {
+  width: 70%;
+  margin: auto;
+  /* debug */
+  height: 100px;
+  border: 1px solid black;
+  /* fine debug */
+
+}
+
 /* parte centrale */
 main {
   width: 100%;

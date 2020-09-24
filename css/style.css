@@ -64,10 +64,54 @@ section {
 
 /* prima sezione */
 
+#prima {
+  background-image: url(../img/jumbotron.png);
+  background-size: 100% 100%;
+}
+
 #testoprimasez {
   width: 50%;
-  height: 500px;
-  background-color: blue;
+  height: 695px;
+}
+
+#testoprimasez p:first-of-type {
+  margin-top: 80px;
+  font-weight: bolder;
+  font-size: 40px;
+  color: rgb(51, 71, 91);
+}
+
+#testoprimasez p:nth-of-type(2) {
+  margin-top: 20px;
+  /* font-weight: bolder; */
+  font-size: 12px;
+  color: rgb(82, 96, 113);
+}
+
+#testoprimasez p:nth-of-type(3) {
+  margin-top: 20px;
+  /* font-weight: bolder; */
+  font-size: 9px;
+  color: rgb(82, 96, 113);
+}
+
+#linkprimasez {
+  background-color: rgb(254, 119, 90);
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+#testoprimasez a{
+  text-decoration: none;
+}
+
+#testoprimasez span{
+  color: white;
+  font-size: 9px;
+  line-height: 40px;
 }
 
 /* seconda sezione */

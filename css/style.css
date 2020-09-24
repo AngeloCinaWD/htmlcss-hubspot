@@ -281,6 +281,10 @@ hr {
 }
 /* terza sezione */
 
+#terza {
+  background-image: linear-gradient(to right, rgb(0, 170, 180), rgb(0, 185, 168));
+}
+
 #testoterzasez {
   color: white;
   text-align: center;
@@ -294,12 +298,42 @@ hr {
   font-size: 12px;
 }
 
+.floatterzasez {
+  margin: 30px 0 50px;
+}
+
 .riquadro {
   float: left;
   width: 25%;
-  height: 50px;
-  /* background-color: lightblue; */
-  border: 1px solid black;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
+
+.des {
+  border-right: 1px solid white;
+}
+
+.row2 {
+  border-top: 1px solid white;
+}
+
+#marketplace {
+  max-width: 50%;
+  height: auto;
+  padding-top: 2px;
+}
+
+#group {
+  padding-top: 13px;
+}
+
+#primospan {
+  font-size: 35px;
+}
+
+#secondospan {
+  font-size: 10px;
 }
 
 /* quarta sezione */

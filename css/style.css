@@ -83,7 +83,9 @@ section {
 
 #testoprimasez p:nth-of-type(2) {
   margin-top: 20px;
-  /* font-weight: bolder; */
+}
+
+.secondotesto {
   font-size: 12px;
   color: rgb(82, 96, 113);
 }
@@ -122,7 +124,7 @@ section {
 
 #cubo {
   text-align: center;
-  margin-top: 50px;
+  margin: 50px 0;
 }
 
 #cubo img {
@@ -138,8 +140,6 @@ section {
 
 #cubo p:nth-of-type(2) {
   margin-top: 20px;
-  margin-bottom: 50px;
-  /* font-weight: bolder; */
   font-size: 12px;
   color: rgb(82, 96, 113);
 }
@@ -149,19 +149,19 @@ section {
   background-color: white;
   border: 1px solid rgb(240, 240, 240);
   border-radius: 4px;
-  background-color: white;
+  margin-bottom: 50px;
 }
 
 #primofloatsecondasez {
   width: 80%;
   margin: 50px auto;
-  border: 1px solid rgb(240, 240, 240);
 }
 
 #libro {
   float: left;
   width: 150px;
   text-align: center;
+  margin-right: 50px;
 }
 
 #libro img {
@@ -169,7 +169,7 @@ section {
   height: auto;
 }
 
-#linksecondasez {
+.linksecondasez {
   background-color: rgb(254, 119, 90);
   width: 150px;
   height: 40px;
@@ -177,62 +177,108 @@ section {
   margin-top: 10px;
 }
 
-#linksecondasez a{
+.linksecondasez a{
   text-decoration: none;
 }
 
-#linksecondasez span{
+.linksecondasez span{
   color: white;
   font-size: 9px;
   line-height: 40px;
 }
 
 #testofreehub {
-  float: right;
-  width: calc(100% - 150px)
-  
+  float: left;
+  width: calc(100% - 150px - 50px)
 }
 
-#testofreehub p:first-of-type {
-  font-weight: bolder;
-  font-size: 30px;
+.primotesto {
+  font-size: 25px;
   color: rgb(51, 71, 91);
 }
 
 #testofreehub p:nth-of-type(2) {
   margin-top: 20px;
-  margin-bottom: 50px;
-  /* font-weight: bolder; */
+  margin-bottom: 10px;
+}
+
+#testofreehub p:nth-of-type(3) {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.terzotesto {
   font-size: 12px;
-  color: rgb(82, 96, 113);
+  color: rgb(51, 71, 91);
+}
+
+.fas {
+  color: rgb(254, 119, 90);
+  margin-right: 10px;
+}
+
+#testofreehub i:nth-of-type(1n+2) {
+  margin-left: 10px;
 }
 
 .floatsecondasez {
-  background-color: orange;
+  margin-top: auto;
+  width: 100%;
 }
 
-#marketing {
+.terzofloat {
   float: left;
   width: 30%;
-  height: 200px;
-  background-color: black;
+  background-color: white;
+  border: 1px solid rgb(240, 240, 240);
+  border-radius: 4px;
 }
 
-#sales {
-  float: left;
-  width: 30%;
-  height: 200px;
-  background-color: black;
+.sales {
   margin: 0 5%;
 }
 
-#service {
-  float: left;
-  width: 30%;
-  height: 200px;
-  background-color: black;
+.floatcontainer{
+  width: 80%;
+  margin: auto;
+  padding: 5px;
+  text-align: center;
 }
 
+.floatcontainer img {
+  width: 150px;
+  height: auto;
+}
+
+.check {
+  text-align: left;
+}
+
+hr {
+  border-color: rgb(82, 96, 113);
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.floatcontainer p:nth-of-type(1) {
+  margin: 20px 0;
+}
+
+.floatcontainer p:nth-of-type(3) {
+  margin-bottom: 20px;
+}
+
+.floatcontainer .linksecondasez {
+  margin: 25px auto 10px;
+}
+
+.sales img {
+  margin-top: 47px;
+}
+
+.marketing img {
+  margin-top: 16px;
+}
 /* terza sezione */
 
 #testoterzasez {

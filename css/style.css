@@ -4,29 +4,45 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
 }
 
 /* regole pagina */
-
-/* intestazione */
-header {
-  width: 100%;
-  /* debug */
-  height: 100px;
-  background-color: green;
-  border: 1px solid black;
-  /* fine debug */
-}
 
 .container {
   width: 70%;
   margin: auto;
   /* debug */
-  height: 100px;
   border: 1px solid black;
   /* fine debug */
-
 }
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* intestazione */
+
+/* header */
+header {
+  width: 100%;
+  background-color: rgb(200, 200, 200);
+  /* debug */
+  border: 1px solid black;
+  /* fine debug */
+}
+
+#opzioni {
+  height: 50px;
+}
+
+/* nav */
+#link {
+  height: 50px;
+}
+
 
 /* parte centrale */
 main {
@@ -41,17 +57,108 @@ main {
 section {
   width: 100%;
   /* debug */
-  height: 100pX;
   border: 1px solid black;
+  background-color: pink;
   /* fine debug */
 }
+
+/* prima sezione */
+
+#testoprimasez {
+  width: 50%;
+  height: 500px;
+  background-color: blue;
+}
+
+/* seconda sezione */
+
+#cubo {
+  height: 50px;
+  background-color: green;
+}
+
+#freehubspot {
+  height: 50px;
+  background-color: lightgreen;
+}
+
+.floatsecondasez {
+  background-color: orange;
+}
+
+#marketing {
+  float: left;
+  width: 30%;
+  height: 200px;
+  background-color: black;
+}
+
+#sales {
+  float: left;
+  width: 30%;
+  height: 200px;
+  background-color: black;
+  margin: 0 5%;
+}
+
+#service {
+  float: left;
+  width: 30%;
+  height: 200px;
+  background-color: black;
+}
+
+/* terza sezione */
+
+#testoterzasez {
+  height: 50px;
+  background-color: blue;
+}
+
+.riquadro {
+  float: left;
+  width: 25%;
+  height: 50px;
+  /* background-color: lightblue; */
+  border: 1px solid black;
+}
+
+/* quarta sezione */
+
+.riquadrotesto {
+  float: left;
+  width: 30%;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.riquadroimmagine {
+  float: left;
+  width: 70%;
+  height: 200px;
+  background-color: grey;
+  border: 1px solid black;
+}
+
 
 /* piè di pagina */
 footer {
   width: 100%;
   /* debug */
-  height: 100px;
-  background-color: red;
+  background-color: purple;
   border: 1px solid black;
   /* fine debug */
+}
+
+
+.lista {
+  float: left;
+  width: 25%;
+  height: 200px;
+  border: 1px solid black;
+}
+
+#testofooter {
+  height: 200px;
+  border: 1px solid black;
 }

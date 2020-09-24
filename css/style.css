@@ -288,6 +288,7 @@ hr {
 #testoterzasez {
   color: white;
   text-align: center;
+  margin-top: 40px;
 }
 
 #testoterzasez p:nth-of-type(1) {
@@ -299,7 +300,7 @@ hr {
 }
 
 .floatterzasez {
-  margin: 30px 0 50px;
+  margin: 50px 0 70px;
 }
 
 .riquadro {
@@ -319,9 +320,8 @@ hr {
 }
 
 #marketplace {
-  max-width: 50%;
+  max-width: 117px;
   height: auto;
-  padding-top: 2px;
 }
 
 #group {

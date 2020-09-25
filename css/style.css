@@ -45,28 +45,12 @@ header {
 
 
 /* parte centrale */
-main {
-  width: 100%;
-  /* debug */
-  /* height: 100px; */
-  background-color: yellow;
-  border: 1px solid black;
-  /* fine debug */
-}
-
-section {
-  width: 100%;
-  /* debug */
-  border: 1px solid black;
-  /* background-color: pink; */
-  /* fine debug */
-}
-
 /* prima sezione */
 
 #prima {
   background-image: url(../img/jumbotron.png);
   background-size: 100% 100%;
+  padding-top: 80px;
 }
 
 #testoprimasez {
@@ -75,7 +59,6 @@ section {
 }
 
 #testoprimasez p:first-of-type {
-  margin-top: 80px;
   font-weight: bolder;
   font-size: 40px;
   color: rgb(51, 71, 91);
@@ -116,11 +99,12 @@ section {
 
 #seconda {
   background-color: rgb(244, 249, 253);
+  padding: 50px 0;
 }
 
 #cubo {
   text-align: center;
-  margin: 50px 0;
+  margin-bottom: 50px;
 }
 
 #cubo img {
@@ -279,6 +263,7 @@ hr {
 
 #terza {
   background-image: linear-gradient(to right, rgb(0, 170, 180), rgb(0, 185, 168));
+  padding: 50px 0;
 }
 
 #testoterzasez {
@@ -335,12 +320,12 @@ hr {
 /* quarta sezione */
 #quarta {
   background-color: white;
+  padding: 50px 0;
 }
 
 .riquadrotesto {
   float: left;
   width: 30%;
-  border: 1px solid black;
 }
 
 .row1 .riquadrotesto {
@@ -352,10 +337,13 @@ hr {
   font-size: 50px;
 }
 
+.row3 .riquadrotesto {
+  margin-top: 50px;
+}
+
 .loghi2 {
   float: right;
   width: 50%;
-  border: 1px solid black;
   margin-top: 30px;
   margin-right: 100px;
 }
@@ -369,7 +357,6 @@ hr {
   float: left;
   margin-left: 20px;
   width: calc(100% - 40%);
-  border: 1px solid black;
   text-align: right;
 }
 
@@ -381,21 +368,71 @@ hr {
 /* piè di pagina */
 footer {
   width: 100%;
+  padding-top: 50px;
+  color: white;
   /* debug */
-  background-color: purple;
+  background-color: #2d3e50;
   border: 1px solid black;
   /* fine debug */
 }
 
-
 .lista {
   float: left;
   width: 25%;
-  height: 200px;
   border: 1px solid black;
 }
 
+.lista p:first-of-type {
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+
+.lista p:nth-of-type(1n+2) {
+  margin-top: 10px;
+}
+
+.lista a{
+  color: #cbd6e2;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+#bottone a {
+  background-color: #cbd6e2;
+  color: #2d3e50;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#social{
+  margin-top: 15px;
+}
+
+#social i {
+  margin-right: 10px;
+  color: #cbd6e2;
+}
+
 #testofooter {
-  height: 200px;
+  padding: 50px 0;
   border: 1px solid black;
+}
+
+#lingue {
+  text-align: center;
+  border-bottom: 1px solid #cbd6e2;
+  padding-bottom: 20px;
+}
+
+#lingue a{
+  color: #cbd6e2;
+  text-decoration: none;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+#finale {
+  width: 100%;
+  height: 200px;
+  background-color: red;
 }

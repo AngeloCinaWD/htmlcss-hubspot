@@ -452,10 +452,13 @@ footer {
   border-radius: 4px;
 }
 
-
 #social i {
   margin-right: 10px;
   color: #cbd6e2;
+}
+
+#social a {
+  margin-right: 10px;
 }
 
 #testofooter {

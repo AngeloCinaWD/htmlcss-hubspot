@@ -26,22 +26,67 @@
 /* intestazione */
 
 /* header */
-header {
+#primonav {
   width: 100%;
-  background-color: rgb(200, 200, 200);
-  /* debug */
-  border: 1px solid black;
-  /* fine debug */
+  background-color: rgb(234, 239, 243);
 }
 
-#opzioni {
-  height: 50px;
+#secondonav {
+  width: 100%;
+  background-color: white;
 }
 
-/* nav */
-#link {
-  height: 50px;
+.opzioni {
+  height: 60px;
+  padding-top: 20px;
 }
+
+#contatti, #logoiniziale {
+  float: left;
+  width: 30%;
+}
+
+#info, #infolink {
+  float: right;
+  width: 60%;
+  text-align: right;
+}
+
+#contatti i, #infolink i {
+  color: rgb(51, 71, 91);
+}
+
+#info i {
+  color: #08A6BE;
+}
+
+#contatti a:first-of-type {
+  border-right: 1px solid rgb(51, 71, 91);
+}
+
+#contatti a, #infolink a {
+  color: rgb(51, 71, 91);
+  text-decoration: none;
+  font-size: 12px;
+}
+
+#info a:nth-of-type(2) {
+  background-color: white;
+  border: 1px solid rgb(254, 119, 90);
+  color: rgb(254, 119, 90);
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+#info a:nth-of-type(3) {
+  background-color: rgb(254, 119, 90);
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
 
 
 /* parte centrale */

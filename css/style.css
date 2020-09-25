@@ -23,10 +23,14 @@
 /* intestazione */
 
 /* header */
+header {
+  display: initial;
+}
+
 #primonav {
   width: 100%;
   background-color: rgb(234, 239, 243);
-}
+  }
 
 .secondonav {
   width: 100%;

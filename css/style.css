@@ -12,9 +12,6 @@
 .container {
   width: 70%;
   margin: auto;
-  /* debug */
-  /* border: 1px solid black; */
-  /* fine debug */
 }
 
 .clearfix::after {
@@ -31,9 +28,15 @@
   background-color: rgb(234, 239, 243);
 }
 
-#secondonav {
+.secondonav {
   width: 100%;
   background-color: white;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
 }
 
 .opzioni {

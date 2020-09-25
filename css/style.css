@@ -58,7 +58,7 @@ section {
   width: 100%;
   /* debug */
   border: 1px solid black;
-  background-color: pink;
+  /* background-color: pink; */
   /* fine debug */
 }
 
@@ -81,18 +81,14 @@ section {
   color: rgb(51, 71, 91);
 }
 
-#testoprimasez p:nth-of-type(2) {
-  margin-top: 20px;
-}
-
 .secondotesto {
   font-size: 12px;
   color: rgb(82, 96, 113);
+  margin-top: 20px;
 }
 
-#testoprimasez p:nth-of-type(3) {
-  margin-top: 20px;
-  /* font-weight: bolder; */
+.quartotesto {
+  margin: 20px 0;
   font-size: 9px;
   color: rgb(82, 96, 113);
 }
@@ -106,11 +102,11 @@ section {
   margin-top: 20px;
 }
 
-#testoprimasez a{
+#linkprimasez a{
   text-decoration: none;
 }
 
-#testoprimasez span{
+#linkprimasez span{
   color: white;
   font-size: 9px;
   line-height: 40px;
@@ -337,22 +333,50 @@ hr {
 }
 
 /* quarta sezione */
+#quarta {
+  background-color: white;
+}
 
 .riquadrotesto {
   float: left;
   width: 30%;
-  height: 200px;
   border: 1px solid black;
 }
 
-.riquadroimmagine {
+.row1 .riquadrotesto {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.row1 .primotesto {
+  font-size: 50px;
+}
+
+.loghi2 {
+  float: right;
+  width: 50%;
+  border: 1px solid black;
+  margin-top: 30px;
+  margin-right: 100px;
+}
+
+.loghi2 img {
   float: left;
-  width: 70%;
-  height: 200px;
-  background-color: grey;
-  border: 1px solid black;
+  width: calc(100% / 4)
 }
 
+#riquadroimmagine {
+  float: left;
+  margin-left: 20px;
+  width: calc(100% - 40%);
+  border: 1px solid black;
+  text-align: right;
+}
+
+#riquadroimmagine img {
+  width: 40%;
+  height: auto;
+}
 
 /* piè di pagina */
 footer {

@@ -13,7 +13,7 @@
   width: 70%;
   margin: auto;
   /* debug */
-  border: 1px solid black;
+  /* border: 1px solid black; */
   /* fine debug */
 }
 
@@ -370,16 +370,12 @@ footer {
   width: 100%;
   padding-top: 50px;
   color: white;
-  /* debug */
   background-color: #2d3e50;
-  border: 1px solid black;
-  /* fine debug */
 }
 
 .lista {
   float: left;
   width: 25%;
-  border: 1px solid black;
 }
 
 .lista p:first-of-type {
@@ -397,6 +393,10 @@ footer {
   font-size: 12px;
 }
 
+#bottone {
+  margin: 20px 0;
+}
+
 #bottone a {
   background-color: #cbd6e2;
   color: #2d3e50;
@@ -404,9 +404,6 @@ footer {
   border-radius: 4px;
 }
 
-#social{
-  margin-top: 15px;
-}
 
 #social i {
   margin-right: 10px;
@@ -415,7 +412,6 @@ footer {
 
 #testofooter {
   padding: 50px 0;
-  border: 1px solid black;
 }
 
 #lingue {
@@ -431,8 +427,28 @@ footer {
   margin-right: 10px;
 }
 
-#finale {
-  width: 100%;
-  height: 200px;
-  background-color: red;
+.finale {
+  padding-top: 50px;
+}
+
+#logofinale {
+  float: left;
+  width: 20%;
+}
+
+#logofinale p {
+  font-size: 13px;
+}
+
+#legale {
+  float: right;
+  width: 20%;
+  text-align: right;
+}
+
+#legale a {
+  color: #cbd6e2;
+  text-decoration: none;
+  font-size: 12px;
+  margin-left: 10px;
 }

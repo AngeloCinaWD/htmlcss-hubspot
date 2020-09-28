@@ -341,7 +341,7 @@ hr {
   width: 25%;
   text-align: center;
   color: white;
-  padding-top: 10px;
+  padding: 10px 0;
 }
 
 .des {
@@ -352,20 +352,20 @@ hr {
   border-top: 1px solid white;
 }
 
-#marketplace {
+.riquadro #marketplace {
   max-width: 117px;
   height: auto;
 }
 
-#group {
+.riquadro #group {
   padding-top: 13px;
 }
 
-#primospan {
+.riquadro #primospan {
   font-size: 35px;
 }
 
-#secondospan {
+.riquadro #secondospan {
   font-size: 10px;
 }
 

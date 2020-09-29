@@ -401,9 +401,20 @@ hr {
 }
 
 .loghi2 img {
-  float: left;
-  width: calc(100% / 4)
+  max-width: 100%;
+  height: auto;
 }
+
+.logo {
+  width: 25%;
+  float: left;
+  height: 100px;
+  padding: 5px;
+  text-align: center;
+  line-height: 100px;
+}
+
+
 
 #riquadroimmagine {
   float: left;
